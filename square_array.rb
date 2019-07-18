@@ -2,5 +2,5 @@ def square_array(array)
   # your code here
   
  array=[1,2,3]
-  square_array.each {|num|num **2} 
+  array.each {|num|num **2} 
 end
